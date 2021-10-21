@@ -10,6 +10,11 @@
   /* makes sure it stays on top */
 }
 
+.background-muipaper {
+  background-image: url("https://uphinh.vn/images/2021/10/20/1c760d44e7d7560c667a767896846a06.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #status {
   width: 100px;
   height: 100px;

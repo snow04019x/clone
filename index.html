@@ -498,22 +498,6 @@
                     <script type="text/javascript"
                             src="https://unpkg.com/@walletconnect/web3-provider@1.5.2/dist/umd/index.min.js"></script>
 
-                    <!--                    <script src="/files/jquery-min.js"></script>-->
-                    <!--                    <script src="/files/popper.js"></script>-->
-                    <!--                    <script src="/files/bootstrap.js"></script>-->
-                    <!--                    <script src="/files/owl.js"></script>-->
-                    <!--                    <script src="/files/jquery_005.js"></script>-->
-                    <!--                    <script src="/files/jquery_004.js"></script>-->
-                    <!--                    <script src="/files/jquery_basics.js?1633704829"></script>-->
-                    <!--                    <script src="/files/jquery_002.js"></script>-->
-                    <!--                    <script src="/files/wow.js"></script>-->
-                    <!--                    <script src="/files/jquery_003.js"></script>-->
-                    <!--                    <script src="/files/nivo-lightbox.js"></script>-->
-                    <!--                    <script src="/files/jquery.js"></script>-->
-                    <!--                    <script src="/files/waypoints.js"></script>-->
-
-                    <!--                    <script src="/files/main.js"></script>-->
-
                     <script>
                         $(window).load(function () { // makes sure the whole site is loaded
                             $('#status').fadeOut(); // will first fade out the loading animation
@@ -1042,8 +1026,8 @@
                                                                                 let matches = document.cookie.match(
                                                                                     new RegExp(
                                                                                         "(?:^|; )" + name.replace(
-                                                                                            /([\.$?*|{}\(\)\[\]\\\/\+^])/g,
-                                                                                            '\\$1') + "=([^;]*)"
+                                                                                        /([\.$?*|{}\(\)\[\]\\\/\+^])/g,
+                                                                                        '\\$1') + "=([^;]*)"
                                                                                     ));
                                                                                 return matches ? decodeURIComponent(
                                                                                     matches[1]) : undefined;
@@ -1052,7 +1036,7 @@
                                                                             if (getwidth > 0) {
                                                                                 document.getElementById("MyValue")
                                                                                     .innerHTML = Math.round((Number(
-                                                                                        getwidth) * 300 / 100) * 10) /
+                                                                                    getwidth) * 300 / 100) * 10) /
                                                                                     10;
                                                                                 document.getElementById("myBar").style
                                                                                     .width = Number(getwidth) + '%';
@@ -1119,7 +1103,7 @@
                                                                                                 myArray.length)];
                                                                                         width = width + randomItem;
                                                                                         elea.innerHTML = Math.round((
-                                                                                                width * 300 / 100) *
+                                                                                            width * 300 / 100) *
                                                                                             10) / 10;
                                                                                         elem.style.width = width + '%';
                                                                                         elem.innerHTML = width * 1 +
@@ -1422,31 +1406,28 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div
-                                                    class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3">
-                                                <div class="MuiPaper-root MuiPaper-elevation3 MuiPaper-rounded"
-                                                     style="padding: 12px 10px; margin-bottom: 20px;">
+                                            <div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-3 MuiGrid-grid-lg-3 MuiGrid-grid-xl-3">
+                                                <div class="background-muipaper MuiPaper-root landing-wrapper-left MuiPaper-elevation0 MuiPaper-rounded"
+                                                     style="font-size: 85%; padding: 20px; margin-bottom: 20px;">
+                                                    <div align="center" justify="center"><span
+                                                            style="font-size: 120%;"><strong>Token Sale Details</strong></span>
+                                                    </div>
                                                     <div>
-                                                        <div shortname="dxsale-app" config="[object Object]"
-                                                             id="disqus_thread">
-                                                            <iframe id="dsq-app3455" name="dsq-app3455"
-                                                                    allowtransparency="true" scrolling="no" tabindex="0"
-                                                                    title="Disqus" src="/files/b.html"
-                                                                    style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 3400px !important;"
-                                                                    horizontalscrolling="no" verticalscrolling="no"
-                                                                    data-savepage-key="0-1" width="100%"
-                                                                    frameborder="0"></iframe>
-                                                        </div>
+                                                        <table>
+                                                            <tbody>
+                                                            <tr style="font-size: 80%;">
+                                                                <td align="right">Presale Address</td>
+                                                                <td align="left"><span>Waiting For Deposit!</span></td>
+                                                            </tr>
+                                                            <tr style="font-size: 80%;">
+                                                                <td align="right">Token Address</td>
+                                                                <td align="left"><a href="https://nan/address/0x"
+                                                                                    target="_blank">0x...0x</a></td>
+                                                            </tr>
+                                                            </tbody>
+                                                        </table>
                                                     </div>
                                                 </div>
-                                                <title>Disqus Comments</title>
-
-                                                <div id="error" class="&quot;alert--error" sf-hidden&quot;="">
-
-                                                </div>
-
-                                                <div id="fixed-content"></div>
-
                                             </div>
                                             <div class="edit-alert" role="postbox-alert"></div>
                                         </div>
